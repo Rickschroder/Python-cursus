@@ -1,0 +1,29 @@
+# Deel 2 Loops
+#2-9-2021
+
+#Loops voor herhaling
+
+for x in range(1, 11):
+    print (f"x heeft nu de waarde {x}")
+
+# Rekenen met hulp van loops
+
+som = 0
+for getal in range(1, 1001):
+    som += getal
+print(som)
+
+som = 0
+for x in range(1, 11):
+    print(f"x heeft nu de waarde {x}")
+    som = som + x
+
+print(f"De som van de getallen van 1 tot en met 10 ={som}")
+
+
+#Soorten loops    
+naam = input("wat is je naam?")
+
+while(naam == ""):
+    naam = input("Wat is je naam?")
+print("hallo",naam)
