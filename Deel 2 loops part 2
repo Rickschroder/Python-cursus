@@ -1,6 +1,6 @@
 som = 0
 while som < 11:
-print(f"x heeft de waarde {x}"
-som = som + x
+  print(f"x heeft de waarde {x}"
+  som = som + x
 
 print(f"De som van de getallen van 1 tot 10 = {som}")
