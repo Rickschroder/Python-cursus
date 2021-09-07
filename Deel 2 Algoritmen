@@ -1,0 +1,29 @@
+# Deel 2 Algoritmen
+# 2-9-2021
+
+# Combinaties van voorwaarden
+x =15
+x_min = 3
+x_max = 39
+if x > x_min and x< x_max:
+    print("het getal", x, "bevindt zich tussen", x_min, "en", x_max)
+
+# Loops
+
+for x in range(1, 11):
+    print("hallo")
+
+#Stapgrootte van een loop
+
+for getal in range (1, 100, 10):
+    print("hallo")
+    
+#Soorten loops
+
+for i in range(100):
+    print("hi")
+
+i = 0
+while i < 100:
+    print("hi")
+    i = i + 1
