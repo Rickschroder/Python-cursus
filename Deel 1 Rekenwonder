@@ -1,0 +1,8 @@
+    # Deel 1 Rekenwonder
+# 2-9-2021
+
+Eerste_getal = input(" Wat is het eerste getal? ")
+Eerste_getal = int(Eerste_getal)
+Tweede_getal = input(" Wat is het tweede getal? ")
+Tweede_getal = int(Tweede_getal)
+print(Eerste_getal * Tweede_getal)
