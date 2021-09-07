@@ -1,0 +1,52 @@
+    # Oefenen met Python deel 1
+# basiselementen
+# 2-9-2021
+
+# print command
+print("Hallo, wereld!")
+print("Hee, hallo daar.")
+print("Zo tikt het lekker door.")
+print("Grappig")
+print("Hee, print dit nog")
+print("Ivo's computer doet het vandaag niet")
+print('Hij zei:"Hallo."')
+
+print("De temperatuur is ", end="")
+print( 8, end="")
+print(" graden")
+
+print("De temperatuur is", 8, "graden")
+
+# berekening
+print(1)
+print(1 + 1)
+print(1 + 1 + 1)
+print(3 + 2)
+print(8)
+print(5 + 8 + 8 - 8)
+print("5 + 8 + 8 - 8")
+
+print(1 + 2)
+print(1 - 2)
+print(1 * 2)
+print(2 / 1)
+print(2 //1)
+print(2 % 1)
+print(2 ** 2)
+
+# int float str
+print(int('32'))
+print(int(-2.3))
+print(float(32.))
+print(float('3.14159'))
+print(str(32))
+print(str(3.14159))
+
+# format
+temperature = 1000
+print("De temperatuur is", temperature, "graden")
+
+print("de temperatuur is {} graden. ".format(temperature))
+
+pressure = 1.013
+print("Het is {} graden en de luchtdruk is {} bar. ".format(temperature, pressure))
